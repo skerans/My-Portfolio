@@ -1,0 +1,162 @@
+:root {
+  --color-one: #d5c5ae;
+  --color-two: #b18653;
+  --color-three: #47596f;
+  --color-four: #54101d;
+  --color-five: #312229;
+}
+
+body {
+  background-color: var(--color-two);
+}
+
+header {
+  display: flex;
+  background-color: var(--color-three);
+  justify-content: space-between;
+  padding: 1%;
+}
+
+h1 {
+  font-size: 250%;
+  margin-left: 3%;
+}
+
+.main-heading {
+  font-size: 200%;
+  text-align: center;
+  align-items: center;
+  max-height: 2em;
+  padding: 10px 0;
+}
+
+.project-head {
+  width: 70%;
+}
+
+.directory {
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
+  margin-top: 10px;
+  color: #000000;
+  text-decoration: none;
+  
+}
+
+.directory a {
+  color: black;
+  margin-right: 50px;
+  justify-content: space-between;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Avenir";   
+}
+
+.directory a:hover {
+    text-decoration: underline;
+    color: var(--color-four);
+}
+  
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 2% auto;
+}
+
+aside {
+  width: 100%;
+  padding: 1%;
+  margin: 5%;
+  background-color: var(--color-one);
+  line-height: 1.5em;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-container a img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.project-container a img:hover {
+  transition: .3s;
+  opacity: .3;
+  box-shadow: 0 0 30px 20px #000000;
+}
+
+.project {
+  flex: 1 0 100%;
+  padding: 1em;
+  margin: 1% 1%;
+  border: 1px solid black;
+  text-align: center;
+  justify-content: center;
+}
+
+.project-first {
+  flex: 1 0 100%;
+  padding: 1em;
+  border: 1px solid black;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+figcaption {
+  font-size: 150%;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--color-three);
+  width: 100%;
+  padding: 20px 0px 40px 0px;
+}
+
+.contact-me {
+  justify-content: center;
+  display: flex;
+}
+
+.contact-me a {
+  justify-content: space-between;
+  margin: 50px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    flex-wrap:nowrap;
+  }
+  
+  .project {
+    flex: 0 0 35%;
+    width: 35%;
+    padding: 0;
+  }
+
+  .project-first {
+    flex: 0 0 72%;
+    width: 72%;
+    flex-wrap: wrap;
+  }
+
+  aside {
+    width: 30%;
+    height: 30%;
+    order: -1;
+    margin: 3% 2% 2% 2%;
+  }
+}
