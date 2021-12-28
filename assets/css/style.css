@@ -107,7 +107,6 @@ aside {
   flex: 1 0 100%;
   padding: 1em;
   margin: 1% 1%;
-  border: 1px solid black;
   text-align: center;
   justify-content: center;
 }
@@ -115,7 +114,6 @@ aside {
 .project-first {
   flex: 1 0 100%;
   padding: 1em;
-  border: 1px solid black;
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -123,6 +121,8 @@ aside {
 
 figcaption {
   font-size: 150%;
+  background-color: var(--color-five);
+  color: var(--color-one);
 }
 
 footer {
@@ -155,7 +155,7 @@ footer {
 
 /*Make the main project larger than the others*/
   .project-first {
-    flex: 0 0 72%;
+    flex: 0 0 75%;
     width: 72%;
     flex-wrap: wrap;
   }
