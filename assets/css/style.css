@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: var(--color-two);
+  background-color: var(--color-one);
 }
 
 header {
@@ -21,9 +21,11 @@ h1 {
   font-size: 250%;
   margin-left: 3%;
 }
+/* settings for headings */
 
 .main-heading {
   font-size: 200%;
+  color: var(--color-five);
   text-align: center;
   align-items: center;
   max-height: 2em;
@@ -34,6 +36,7 @@ h1 {
   width: 70%;
 }
 
+/* Top navigation section*/
 .directory {
   display: flex;
   justify-content: space-between;
@@ -70,14 +73,16 @@ main {
   margin: 2% auto;
 }
 
+/*Set aside the about me section so it will be on top in mobile view*/
 aside {
   width: 100%;
   padding: 1%;
   margin: 5%;
-  background-color: var(--color-one);
+  background-color: var(--color-two);
   line-height: 1.5em;
 }
 
+/* Make container for projects section to adjust using flexbox*/
 .project-container {
   display: flex;
   flex-wrap: wrap;
@@ -91,6 +96,7 @@ aside {
   max-height: auto;
 }
 
+/*Add effects to the project images on hover*/
 .project-container a img:hover {
   transition: .3s;
   opacity: .3;
@@ -147,12 +153,14 @@ footer {
     padding: 0;
   }
 
+/*Make the main project larger than the others*/
   .project-first {
     flex: 0 0 72%;
     width: 72%;
     flex-wrap: wrap;
   }
 
+  /*Move about me to the side*/
   aside {
     width: 30%;
     height: 30%;
