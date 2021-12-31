@@ -2,7 +2,13 @@
 My personal work portfolio
 
 # Description
-I wanted to showcase a few of my projects in a steamlined way. I want to introduce myself in a way that showed who I was and my design style.
+The main goal was to create a reactive portfolio page using HTML/CSS.
+
+Filled in with lorem ipsum and placeholding images in place of personal information and projects.
+
+Can be found at
+https://skerans.github.io/My-Portfolio/
+
 
 
 # Sources
