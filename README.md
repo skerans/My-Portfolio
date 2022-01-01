@@ -9,7 +9,7 @@ Filled in with lorem ipsum and placeholding images in place of personal informat
 Can be found at
 https://skerans.github.io/My-Portfolio/
 
-![full size picture of portfolio](./assets/images/screenshot)
+![full size picture of portfolio](./assets/images/screenshot.png)
 
 
 # Sources
