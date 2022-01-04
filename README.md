@@ -4,7 +4,7 @@ My personal work portfolio
 # Description
 The main goal was to create a reactive portfolio page using HTML/CSS.
 
-Filled in with lorem ipsum and placeholding images in place of personal information and projects.
+Filled in with lorem ipsum and placeholding images in place of personal information/picture and projects.
 
 Can be found at
 https://skerans.github.io/My-Portfolio/
