@@ -163,7 +163,7 @@ footer {
   /*Move about me to the side*/
   aside {
     width: 30vh;
-    height: 75vh;
+    height: 30vh;
     order: -1;
     margin: 5% 0% 3% 4%;
     box-shadow: 0 0  10px 3px black;
