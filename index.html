@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8ffef1b7fa.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Spencer's Portfolio</title>
@@ -27,34 +28,47 @@
     <!--About me section, so it's position can be moved around-->
     <aside>
       <h2 id="about" class="main-heading">About Me</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quas aperiam, ab eaque nihil nemo perferendis, quaerat facere totam ex laudantium dolorum dolores similique iste, quae commodi laborum reprehenderit exercitationem?</p>
+      <ul>
+        <li>
+          <a href="#about"><i class="fas fa-address-card" aria-hidden="true"></i>About Me</a>
+        </li>
+        <li>
+          <a href="#portfolio"><i class="fas fa-briefcase" aria-hidden="true"></i>Portfolio</a>
+        </li>
+        <li>
+          <a href="#resume"><i class="fas fa-bars"></i aria-hidden="true">Resume</a>
+        </li>
+        <li>
+          <a href="#contact"><i class="fas fa-envelope" aria-hidden="true"></i>Contact</a>
+        </li>
+      </ul>
     </aside>
    <!--Make flexbox container to hold projects-->
     <section id="portfolio" class="project-container">
       <h2 class="project-head main-heading">My Projects</h2>
       <div class="project-first">
         <figure>
-          <a href="#">
-            <img src="assets/images/pexels-photo-1089438.jpeg" alt="placeholder image">
-            <figcaption>First Project</figcaption>
+          <a href="https://github.com/skerans/Mapped-event-tracker">
+            <img src="assets/images/project1-screenshot.PNG" alt="placeholder image">
+            <figcaption>Mapped Event Tracker</figcaption>
           </a>
         </figure>
       </div>
       
       <div class="project">
         <figure>
-          <a href="#">
-            <img src="./assets/images/pexels-photo-270360.jpeg" alt="placeholder image">
-            <figcaption>Second Project</figcaption>
+          <a href="https://github.com/skerans/Weather-app-week6">
+            <img src="./assets/images/weatherapp-screenshot.png" alt="placeholder image">
+            <figcaption>Weather app</figcaption>
           </a>  
         </figure>
       </div>
 
       <div class="project">
         <figure>
-          <a href="#">
-            <img src="./assets/images/pexels-photo-1089440.jpeg" alt="placeholder image">
-            <figcaption>Third Project</figcaption>
+          <a href="https://github.com/skerans/QuizGame">
+            <img src="./assets/images/quizgame-screenshot.png" alt="placeholder image">
+            <figcaption>Quiz game app</figcaption>
           </a>
         </figure>
       </div>
@@ -85,9 +99,10 @@
   <footer id="contact">
     <h2 class="main-heading">Contact Me</h2>
     <ul class="contact-me">
-      <li><a href="#">Github</a></li>
-      <li><a href="#">Linkedin</a></li>
+      <li><a target="_blank" href="https://github.com/skerans">Github</a></li>
+      <li><a target="_blank" href="https://www.linkedin.com/in/spencer-kerans-4749781aa/">Linkedin</a></li>
       <li><a href="#">Email</a></li>
+      <li><a href="#">Resume</a></li>
     </ul> 
   </footer>
 
